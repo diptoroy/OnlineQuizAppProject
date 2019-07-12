@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.StartActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="10dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <LinearLayout
+                android:padding="15dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:id="@+id/rules1"
+                    android:text="@string/rules1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:id="@+id/rules2"
+                    android:text="@string/rules2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:id="@+id/rules3"
+                    android:text="@string/rules3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_below="@id/rules3"
+                        android:layout_margin="20dp"
+                        android:id="@+id/btn_Play"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/startbutton"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:text="Start"
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:textStyle="bold"  />
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</LinearLayout>

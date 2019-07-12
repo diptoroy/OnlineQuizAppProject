@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">NEO</string>
+    <string name="signinEdittext">User Name</string>
+    <string name="signinPassword">Password</string>
+    <string name="signinButton">Sign In</string>
+    <string name="signUpBtn">Register</string>
+    <string name="phnNum">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="newsign">Are you new?</string>
+    <string name="startButton">Start</string>
+    <string name="score">Score : </string>
+    <string name="questionNum">0/0</string>
+    <string name="admin">Admin</string>
+    <string name="answered">Answered : </string>
+    <string name="register">Register</string>
+    <string name="phnnumber">Phone : +8801XXXXXXXXX</string>
+    <string name="ins">Institute</string>
+    <string name="backbtn">Back</string>
+    <string name="rules1">1.The paper contains MCQ questions only.Please answer to the best of your knowledge.</string>
+    <string name="rules2">2.There is no negative marking.</string>
+    <string name="rules3">3.Most questions are worth one points.A few special questions are worth more.Please check the value of the questions.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="classNumber">
+        <item>Choose class</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="division">
+        <item>Choose Division</item>
+        <item>Barishal</item>
+        <item>Chottogram</item>
+        <item>Dhaka</item>
+        <item>Mymensingh</item>
+        <item>Khulna</item>
+        <item>Rajshahi</item>
+        <item>Rangpur</item>
+        <item>Sylhet</item>
+    </string-array>
+
+    <string-array name="refer">
+        <item>Choose Referer</item>
+        <item>Friends or Family</item>
+        <item>organizers visiting school</item>
+        <item>Poster</item>
+        <item>Facebook</item>
+        <item>Participation in previous NEO</item>
+        <item>Media(Newspaper/Radio/TV)</item>
+        <item>Other</item>
+    </string-array>
+</resources>
